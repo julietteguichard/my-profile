@@ -1,0 +1,80 @@
+body {
+	margin: 100px;
+	background-color: #C7DDC5;
+	color: rgb(70, 70, 70);
+	text-align: center;
+}
+
+h1 {color: #4AA3A2; 
+	font-family: times, serif;
+	font-size: 50px;
+	font-weight: 800;
+	text-shadow: 1px 1px 1px #4AA3A2;}
+
+h2 {font-family: comic, monospace;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;}
+
+p {line-height: 1.6;
+	font-family: times, serif;
+	font-size: 20px;
+	text-align: justify;
+	padding: 15px;}
+
+a {text-decoration: none; color: rgb(80, 80, 80);} 
+a:hover{color: #F38071;}
+
+div{background-color: #E3EBD0;
+	border: 1px solid transparent;
+	margin: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);}
+
+img{border-radius: 100%;
+	box-shadow: 15px 10px 15px #4AA3A2;}
+
+img {border: 1px solid #127679;}
+
+.follow, .hobbies,.dream,.titre {background-color: #F1F1D3;
+								border-radius: 50px; 
+								box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+								margin: 30px}
+
+.follow {height: 200px;
+ 		width: 300px;
+ 		padding-top:10px;
+ 		margin: auto;
+ 		margin-bottom: 50px;}
+
+.btn{background-color: #9FCDA8;
+	color: white;
+	padding: 15px 20px;
+	box-shadow: 5px 3px 5px #7DC2A5;
+	border-radius: 40px;}
+
+.btn:hover{background: #FFDFDB; box-shadow: 5px 3px 5px #F38071}
+
+.list-inline {list-style: none;
+			padding-left: 0px;}
+
+.list-inline li{display: inline-block;
+				padding: 10px;}
+
+.list-inline i{font-size: 40px; background-color: #9FCDA8;
+				color: white;
+				padding: 15px 20px;
+				border-radius: 40px;}
+
+.list-inline i:hover{box-shadow: 5px 3px 5px #F38071;
+					color: #F38071}
+
+@media(max-width: 720px) {div {width: 400px;}}
+
+@media(max-width: 720px) {.hobbies, .dream,.titre {width: 300px;}}
+
+@media(max-width: 720px) {.follow {width: 100px;}}
+
+
